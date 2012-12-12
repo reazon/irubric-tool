@@ -3,7 +3,7 @@ irubric-tool
 
 irubric-tool install in sakai
 
-Install sakai-2.8.0:
+Install sakai-2.8.1:
 1. Build Gradebook
 	
 	
