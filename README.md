@@ -31,5 +31,5 @@ Install sakai-2.8.0:
 4. Restart tomcat
 	(also copy images rubric.gif and refresh.gif to  /opt/tomcat/webapps/sakai-gradebook-tool/images/)
 
-	$ cp rubric.gif /opt/tomcat/webapps/sakai-gradebook-tool/images/
-	$ cp refresh.gif /opt/tomcat/webapps/sakai-gradebook-tool/images/
+	$ cp {sakai_root}/gradebook-sakai-2.8.0/rubric.gif /opt/tomcat/webapps/sakai-gradebook-tool/images/
+	$ cp {sakai_root}/gradebook-sakai-2.8.0/refresh.gif /opt/tomcat/webapps/sakai-gradebook-tool/images/
