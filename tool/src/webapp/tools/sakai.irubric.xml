@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registration>
+    <tool title="iRubric" description="build, report from iRubric " id="sakai.irubric">
+    
+	<category name="course"/>
+	<category name="project"/>
+	</tool>
+</registration>
