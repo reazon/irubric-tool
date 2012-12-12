@@ -9,7 +9,7 @@ Install sakai-2.8.1:
 	Click button "Zip" and download file gradebook
 	Extract file gradebook-sakai-2.8.1.zip into {sakai_root}
 	
-	$cd {sakai-root}/gradebook-sakai-2.8.1
+	$cd {sakai_root}/gradebook-sakai-2.8.1
 	$mvn clean install sakai:deploy
 	$cp ~/.m2/repository/org/sakaiproject/edu-services/gradebook/gradebook-service-impl/1.1.3/gradebook-service-impl-1.1.3.jar {CATALINA_HOME}/shared/lib
 
