@@ -17,11 +17,3 @@ Install sakai-2.8.1:
 	$cd {sakai_root}/irubric-tool
 	$mvn clean install sakai:deploy
 
-        
-3. Insert database sakai:
-
-+Database:
-
-	insert into SAKAI_REALM_FUNCTION values(DEFAULT,"irubric.collaborativeassessments");
-	insert into SAKAI_REALM_FUNCTION values(DEFAULT,"irubric.accessgallery");
-	insert into SAKAI_REALM_FUNCTION values(DEFAULT,"irubric.build");
