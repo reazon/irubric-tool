@@ -1,5 +1,5 @@
 <link type="text/css" href="/library/skin/tool_base.css" media="all" rel="stylesheet" />
-<link type="text/css" href="/library/skin/default/tool.css" media="all" rel="stylesheet" />
+<link type="text/css" href="/library/skin/neo-default/tool.css" media="all" rel="stylesheet" />
 <script type="text/javascript" src="/library/js/jquery-ui-latest/js/jquery.min.js"></script>
 <script type="text/javascript" src="/library/js/jquery-ui-latest/js/jquery-ui.min.js"></script>
 <script type="text/javascript"  src="/irubric-tool/js/irubric.js?v=1"></script>
