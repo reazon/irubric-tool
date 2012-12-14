@@ -2,17 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
 
-  <!--  Hibernate persistence -->
-
-  <bean id="org.sakaiproject.springframework.orm.hibernate.impl.AdditionalHibernateMappingsImpl.irubric"
-    class="org.sakaiproject.springframework.orm.hibernate.impl.AdditionalHibernateMappingsImpl">
-    <property name="mappingResources">
-      <list>
-        <value>org/sakaiproject/tool/gradebook/iRubric/GradableObjectRubric.hbm.xml</value>
-      </list>
-    </property>
-  </bean>
-
+	<!--DN 2012-12-11: re-use function GradebookManager of Gradebook tool -->
 	<bean id="org.sakaiproject.tool.gradebook.business.GradebookManager"
 			class="org.sakaiproject.tool.gradebook.business.impl.GradebookManagerHibernateImpl">
 			<property name="sessionFactory">
